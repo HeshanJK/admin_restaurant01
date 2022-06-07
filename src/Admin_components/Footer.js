@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import {
 Box,
 } from "../style/FooterStyles";
@@ -20,3 +20,4 @@ return (
 );
 };
 export default Footer;
+*/

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import Footer from '../components/Footer'
+//import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { Table } from 'react-bootstrap'
 
@@ -30,7 +30,7 @@ const Home = () => {
   <tbody>
     <tr>
               <td><Link to="/viewfood"><Button size="sm">Mixed Rice </Button></Link></td>
-              <td><Button size="sm">Cocacola </Button></td>
+              <td><Button size="sm" className='text-center justify-content-center'>Cocacola </Button></td>
               <td><Button size="sm">Burger </Button></td>
               <td><Button size="sm">Icecream </Button></td>
     </tr>
