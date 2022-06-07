@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router,Routes,Route}  from 'react-router-dom'
-import Home from './screens/Home';
-import Viewfood from './screens/Viewfood';
-import Addfood from './screens/Addfood';
-import Offers from './screens/Offers';
+import Home from './Admin_screens/Home';
+import Viewfood from './Admin_screens/Viewfood';
+import Addfood from './Admin_screens/Addfood';
+import Offers from './Admin_screens/Offers';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

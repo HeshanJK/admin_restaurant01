@@ -1,9 +1,9 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from '../Admin_components/Footer'
+import Header from '../Admin_components/Header'
 import { Form } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
-import '../style/circle.css'
+import '../Admin_style/circle.css'
 import { Table } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 

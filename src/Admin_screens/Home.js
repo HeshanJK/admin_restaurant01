@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 //import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Header from '../Admin_components/Header'
 import { Table } from 'react-bootstrap'
 
 const Home = () => {

@@ -1,19 +1,19 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from '../Admin_components/Footer'
+import Header from '../Admin_components/Header'
 import { Form } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
-import '../style/circle.css'
+import '../Admin_style/circle.css'
 import { Link } from 'react-router-dom'
 
-const Viewfood = () => {
+const Addfood = () => {
   return (
     <div>
         <Header />
 
 
-        <h1>Update a food</h1>
+        <h1>Add food</h1>
 
         <Table striped bordered hover>
 
@@ -35,14 +35,12 @@ const Viewfood = () => {
               <th>
                 
               <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Add a name</Form.Label>
-    <Form.Control type="text" placeholder="Enter name" />
-    
+  <Form.Group className="mb-3" controlId="formBasicEmail">  
+    <Form.Control type="text" placeholder="Enter name" /> 
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Add price</Form.Label>
+    
     <Form.Control type="number" placeholder="Enter price" />
   </Form.Group>
   <Form.Group className="mb-3" controlId="formBasicCheckbox">
@@ -54,22 +52,16 @@ const Viewfood = () => {
     <Form.Label>Add Estimated Time</Form.Label>
     <Form.Control type="text" placeholder="Enter estimated time" />
   </Form.Group>
-  <Button variant="danger" type="submit" size='lg'>
-    update
+  <Button variant="primary" type="submit" size='lg'>
+    Enter
   </Button>
-  <br />
-  <br />
-  <div>
+  &nbsp;
   <Link to="/">
-  <Button  variant="primary" type="submit" size='lg'>
-            Cancel
+  <Button variant="primary" type="submit" size='lg'>
+    Cancel
   </Button>
   </Link>
-  </div>
-  
 </Form>
-  
-
               
               
               </th>            
@@ -84,4 +76,4 @@ const Viewfood = () => {
   )
 }
 
-export default Viewfood
+export default Addfood
